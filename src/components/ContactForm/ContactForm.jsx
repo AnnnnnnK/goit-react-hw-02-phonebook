@@ -1,4 +1,4 @@
-import { Children, Component } from 'react';
+import { Component } from 'react';
 import css from 'components/ContactForm/ContactForm.module.css';
 
 class ContactForm extends Component {

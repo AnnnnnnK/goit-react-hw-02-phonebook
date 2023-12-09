@@ -1,6 +1,9 @@
 .item{
     list-style: none;
 }
+.title{
+color: #4d0066;
+}
 .btn {
     align-items: center;
     background-color: #f9e6ff;

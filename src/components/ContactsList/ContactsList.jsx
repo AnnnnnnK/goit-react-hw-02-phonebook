@@ -4,7 +4,7 @@ import css from 'components/ContactsList/ContactsList.module.css';
 const ContactsList = ({ contacts, handleDelete }) => {
   return (
     <>
-      <h2>Contacts</h2>
+      <h2 className={css.title}>Contacts</h2>
       <ul>
         {contacts.map(({ name, number, id }) => (
           <li key={id} className={css.item}>
